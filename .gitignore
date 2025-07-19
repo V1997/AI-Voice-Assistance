@@ -1,0 +1,24 @@
+# Frontend
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.env
+
+# Backend
+/backend/node_modules/
+/backend/.env
+
+# (Optional) Ignore lockfiles if you don't want to commit them
+#/frontend/package-lock.json
+#/backend/package-lock.json
+
+# Additional ignores for data, cache, and environments
+webscraper/documents_1.json
+firecrawl/
+embeddings_output/
+__pycache__/
+aven_env/
+.env
+webscraper/node_modules/
+webscraper/www.aven.com/
+
+# Existing rules below
